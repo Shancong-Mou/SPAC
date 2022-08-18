@@ -2,6 +2,8 @@
 Code for "SPAC: Sparse Sensor Placement Based Adaptive Control for High Precision Fuselage Assembly" 
 CODE DESCRIPTION 
 
+*The main function is "AdaptiveAndSparseSensing.m". Please use Matlab (we use R2021a, any recent version should work) to run it.
+
 *We use dummy data to replace the Boeing data. Therefore, running this code does not reproduce the results in the paper because the data is not the original real Boeing data. If you wish to use your own data, there are four types of data to be prepared:
 1) stiffness matrix of the designed shape(K0)
 2) stiffness matrix of the true part(K_t)
